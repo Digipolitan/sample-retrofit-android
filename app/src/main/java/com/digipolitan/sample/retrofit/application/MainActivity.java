@@ -77,19 +77,19 @@ public class MainActivity extends AppCompatActivity {
     public boolean validateForm() {
         boolean valid = true;
         if (TextUtils.isEmpty(login.getEditText().getText())) {
-            login.setError("Mandatory");
+            login.setError(getString(R.string.mandatory));
             valid = false;
         }
         if (TextUtils.isEmpty(password.getEditText().getText())) {
-            password.setError("Mandatory");
+            password.setError(getString(R.string.mandatory));
             valid = false;
         }
         if (TextUtils.isEmpty(firstName.getEditText().getText())) {
-            firstName.setError("Mandatory");
+            firstName.setError(getString(R.string.mandatory));
             valid = false;
         }
         if (TextUtils.isEmpty(lastName.getEditText().getText())) {
-            lastName.setError("Mandatory");
+            lastName.setError(getString(R.string.mandatory));
             valid = false;
         }
 

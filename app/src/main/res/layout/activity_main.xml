@@ -18,7 +18,7 @@
             android:id="@+id/activity_main_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Login"
+            android:hint="@string/login"
             android:inputType="textPersonName" />
     </android.support.design.widget.TextInputLayout>
 
@@ -34,7 +34,7 @@
             android:id="@+id/activity_main_password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword" />
     </android.support.design.widget.TextInputLayout>
 
@@ -50,7 +50,7 @@
             android:id="@+id/activity_main_firstname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="First name"
+            android:hint="@string/first_name"
             android:inputType="textPersonName" />
     </android.support.design.widget.TextInputLayout>
 
@@ -66,7 +66,7 @@
             android:id="@+id/activity_main_lastname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Last name"
+            android:hint="@string/last_name"
             android:inputType="textPersonName" />
     </android.support.design.widget.TextInputLayout>
 
@@ -75,7 +75,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Create"
+        android:text="@string/create"
         app:layout_constraintLeft_toRightOf="parent"
         app:layout_constraintRight_toLeftOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/activity_main_lastname_layout" />
